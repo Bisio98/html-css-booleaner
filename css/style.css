@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+header{
+    background-image:url("../img/pattern.png");
+    background-color: #4ea0ff;
+    height: 175px;    
+}
+
+#logo{
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.author{
+    color: gray;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.author.date{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#writer{
+    color:#6dc7ee;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+.content,.list,.table,.interest_you,.adv1,.adv2{
+    margin-top: 30px;
+}
+
+table{
+    border-collapse:collapse;
+    width: 100%;
+    height: auto;
+}
+
+
+th{
+    text-align: left;
+}
+
+.table_int{
+    color: white;
+    background-color:#20a9e5;
+}
+
+.table_color{
+    background-color: #b1e5f2;
+}
+
+.cont{
+    width: 50%;
+}
+
+.interest_you{
+    color: gray;
+    font-weight: 650;
+}
+
+.adv1{
+    background-image: url(../img/monitor.jpg);
+}
+
+.adv2{
+    background-image: url(../img/graph.jpg);
+}
+.adv1,.adv2{
+    background-repeat: no-repeat;
+    height: 200px;
+    width: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.adv_text{
+    margin-left: 15px;
+    padding: 10px;
+}
